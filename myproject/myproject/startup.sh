@@ -1,6 +1,6 @@
 #!/bin/bash
 
-cd C:/django-blog/
+cd C:/django-blog/myproject
 
 python manage.py collectstatic && gunicorn --workers 2 myproject.wsgi
 
